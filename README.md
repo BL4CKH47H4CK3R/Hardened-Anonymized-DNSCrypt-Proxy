@@ -12,7 +12,7 @@ A flexible DNS proxy, with support for modern encrypted DNS protocols such as [D
 
 ## Why This Project ?
 
-There Are Automated DNSCrypt-Proxy Client For Both [Windows](https://github.com/bitbeans/SimpleDnsCrypt) & [Android (Magisk Module)](https://github.com/quindecim/dnscrypt-proxy-android) <br/>
+There Are Automated DNSCrypt-Proxy Client For Both [Windows](https://github.com/bitbeans/SimpleDnsCrypt) & [Android (Magisk Module)](https://github.com/d3cim/dnscrypt-proxy-android) <br/>
 But For Linux, People Find It Hard To Configure DNSCrypt-Proxy Manually. But I Wanted To Keep It Simple, So It's Here !
 
 
@@ -23,7 +23,7 @@ But For Linux, People Find It Hard To Configure DNSCrypt-Proxy Manually. But I W
 
 ## Differences From The Main DNSCrypt-Proxy Project
 
-- `server_names` = `altername` [RUS], `ams-dnscrypt-nl` [NLD], `d0wn-tz-ns1` [TZA], `dct-at1` [AUS], `dct-nl1` [NLD], `dct-ru1` [RUS], `dnscrypt.be` [BEL], `dnscrypt.ca-1` [CAN], `dnscrypt.ca-2` [CAN], `dnscrypt.pl` [POL], `dnscrypt.uk-ipv4` [GBR], `dnswarden-uncensor-dc-swiss` [CHE], `meganerd` [NLD], `openinternet` [USA], `plan9dns-fl` [USA], `plan9dns-mx` [MEX], `plan9dns-nj` [USA], `pryv8boi` [DEU], `sby-limotelu` [IDN], `scaleway-ams` [NLD], `scaleway-fr` [FRA], `serbica` [NLD], `techsaviours.org-dnscrypt` [DEU], `v.dnscrypt.uk-ipv4` [GBR] are the resolvers in use.
+- `server_names` = `ams-dnscrypt-nl` [NLD], `d0wn-tz-ns1` [TZA], `dct-nl` [NLD], `dct-ru` [RUS], `dnscrypt.be` [BEL], `dnscrypt.ca-1` [CAN], `dnscrypt.ca-2` [CAN], `dnscrypt.pl` [POL], `dnscrypt.uk-ipv4` [GBR], `dnswarden-uncensor-dc-swiss` [CHE], `meganerd` [NLD], `openinternet` [USA], `plan9dns-fl` [USA], `plan9dns-mx` [MEX], `plan9dns-nj` [USA], `pryv8boi` [DEU], `sby-limotelu` [IDN], `scaleway-ams` [NLD], `scaleway-fr` [FRA], `serbica` [NLD], `techsaviours.org-dnscrypt` [DEU], `v.dnscrypt.uk-ipv4` [GBR] are the resolvers in use.
 
 - `doh_servers = false` (disable servers implementing the `DNS-over-HTTPS` protocol)
 
@@ -45,7 +45,7 @@ But For Linux, People Find It Hard To Configure DNSCrypt-Proxy Manually. But I W
 
 - `block_ipv6 = true` (immediately respond to IPv6-related queries with an empty response)
 
-- `blocked-names.txt`, `blocked-ips.txt`, `allowed-names.txt` and `allowed-ips.txt` files enabled. (to know more specifics about this, please refer to the [Filters (optional)](https://github.com/quindecim/dnscrypt-proxy-android#filters-optional) section below)
+- `blocked-names.txt`, `blocked-ips.txt`, `allowed-names.txt` and `allowed-ips.txt` files enabled. (to know more specifics about this, please refer to the [Filters (optional)](https://github.com/d3cim/dnscrypt-proxy-android#filters-optional) section below)
 
 - `anonymized_dns` feature enabled. (`routes` are indirect ways to reach DNSCrypt servers, each resolver has 2 relays assigned)
 
@@ -90,4 +90,4 @@ To know more about it, you can check the official documentation [DNSCrypt-Proxy-
 
 - [Frank Denis](https://github.com/jedisct1) & All Other Contributors
 For This Awesome [Project](https://github.com/DNSCrypt/dnscrypt-proxy)
-- Special Thanks To [quindecim](https://github.com/quindecim) For The DNSCrypt-Proxy [Configuration](https://raw.githubusercontent.com/quindecim/dnscrypt-proxy-android/master/config/dnscrypt-proxy.toml)
+- Special Thanks To [d3cim](https://github.com/d3cim) For The DNSCrypt-Proxy [Configuration](https://github.com/d3cim/dnscrypt-proxy-android/raw/master/config/dnscrypt-proxy.toml)
