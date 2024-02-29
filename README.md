@@ -1,4 +1,4 @@
-<h1 align="center"><a href=https://github.com/BL4CKH47H4CK3R/Hardened-Anonymized-DNSCrypt-Proxy>Hardened-Anonymized-DNSCrypt-Proxy</a></h1>
+<h1 align="center"><a href=https://github.com/D357R0Y3R/Hardened-Anonymized-DNSCrypt-Proxy>Hardened-Anonymized-DNSCrypt-Proxy</a></h1>
 <p align=center>Wipe Snoopers Out Of Your Networks</p>
 
 A flexible DNS proxy, with support for modern encrypted DNS protocols such as [DNSCrypt v2](https://dnscrypt.info/protocol), [DNS-over-HTTPS](https://www.rfc-editor.org/rfc/rfc8484.txt), [Anonymized DNSCrypt](https://github.com/DNSCrypt/dnscrypt-protocol/blob/master/ANONYMIZED-DNSCRYPT.txt) and [ODoH (Oblivious DoH)](https://github.com/DNSCrypt/dnscrypt-resolvers/blob/master/v3/odoh-servers.md).
@@ -56,7 +56,7 @@ But For Linux, People Find It Hard To Configure DNSCrypt-Proxy Manually. But I W
 
 ## Configure [Copy-Paste]
 
-    git clone https://github.com/BL4CKH47H4CK3R/Hardened-Anonymized-DNSCrypt-Proxy
+    git clone https://github.com/D357R0Y3R/Hardened-Anonymized-DNSCrypt-Proxy
     cd Hardened-Anonymized-DNSCrypt-Proxy
     makepkg -Ccrfs --noconfirm
     sudo pacman -U *zst

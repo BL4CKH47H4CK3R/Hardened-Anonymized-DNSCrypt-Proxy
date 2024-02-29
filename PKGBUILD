@@ -1,4 +1,4 @@
-# Maintainer: BL4CKH47H4CK3R <109698175+BL4CKH47H4CK3R@users.noreply.github.com>
+# Maintainer: D357R0Y3R <109698175+D357R0Y3R@users.noreply.github.com>
 
 pkgname=Hardened-Anonymized-DNSCrypt-Proxy
 _pkgname=dnscrypt-proxy
@@ -6,7 +6,7 @@ pkgver=2.1.5.r46.g8d43ce9b
 pkgrel=1
 pkgdesc="Wipe Snoopers Out Of Your Networks"
 arch=('x86_64' 'x86_64_v3')
-url="https://github.com/BL4CKH47H4CK3R/Hardened-Anonymized-DNSCrypt-Proxy"
+url="https://github.com/D357R0Y3R/Hardened-Anonymized-DNSCrypt-Proxy"
 license=(ISC)
 depends=(glibc)
 makedepends=(git go)
